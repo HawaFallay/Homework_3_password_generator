@@ -16,3 +16,5 @@ How to use:
 Open opening the web page the user will click a button titled "Generate Password"
 Once clicked, the User will answer a series of prompts.
 Based on the User selecting "Cancel"  or "Ok" which equals "no" or "yes" respectively , a random password will be generated .
+
+https://user-images.githubusercontent.com/113000340/219514629-9418dd4d-8fc3-49c9-82c9-04e925839f76.jpeg
