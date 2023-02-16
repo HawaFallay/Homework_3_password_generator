@@ -15,7 +15,7 @@ var generateBtn = document.querySelector("#generate");
 var characterPool = []
 var randomPassword = []
 function generatePassword() {
-  var password = prompt("PLease enter a password with a minimum of eight characters. must include");
+  var password = prompt("How long would your password to be? Must be at least 8 characters and no more that 128");
   var confirmNumbers = confirm("Would you like to include numbers in your password?");
   var confirmLowerCase = confirm("Would you like to include lowercase letters?");
   var confirmUpperCase = confirm("Would you like to add uppercase letters?");
@@ -47,7 +47,7 @@ for (var i=0 ;i<password;i++){
 
 
   console.log("button clicked");
-  return "Generated password";
+  return randomPassword.join("");
 }
 
   
