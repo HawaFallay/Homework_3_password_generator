@@ -1,15 +1,23 @@
 // Assignment code here
-
+//if (password == "1234") {
+  //location = "media.html"
+// } else {
+//   document.getElementById("msg").value = "test";
+  //location = "error.html"
+//
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword(){
-  console.log ("button clicked")
+function generatePassword() {
+  var password = prompt("PLease enter a password with a minimum of eight characters. must include");
+
+  console.log("button clicked");
+  return "Generated password";
+}
 
   
-  return "Generated password"
-}
+
 
 // Write password to the #password input
 function writePassword() {
